@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'FuturaHandwritten';
+    src: url('../assets/FuturaHandwritten.ttf'); /*URL to font*/
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+body {
+    margin: 0;
+}
+
+#maintext {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    line-height: 650px;
+    font-size: 60px;
+    font-family: 'FuturaHandwritten';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
